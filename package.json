@@ -1,0 +1,12 @@
+{
+  "name": "diridon-run",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Oval to San Jose Diridon departure board with live 511 SF Bay data",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "stops": "node find-stops.js"
+  }
+}

@@ -1,0 +1,15 @@
+# Never commit the 511 token
+.env
+.env.local
+key.txt
+*.token
+
+# Node
+node_modules/
+npm-debug.log*
+.wrangler/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
